@@ -1,6 +1,6 @@
 a {text-decoration:none;}
 .content {background:white; margin-bottom:0; text-align:center;}
-body {background:#39cced;}
+body {background:#28bbdc;}
 ul#nav_buttons {margin: 5px 0 0 0; padding: 10px; font-size:1.3em; background:white;}
 #nav_buttons li{display: inline; padding:9px; margin:0 6px;}
 .current_page {background-color:#d6d6e0;}
@@ -17,3 +17,4 @@ h2.news_break {margin: 0;}
 a.archivelink {position:absolute; right: -56px; padding:9px; top:-10px;}
 img.archiveup {}
 .biglink {font-size:1.5em;}
+#clip {position: absolute; clip: rect(0, 69px, 200px, 0);}
