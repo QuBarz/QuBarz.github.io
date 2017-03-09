@@ -17,4 +17,4 @@ h2.news_break {margin: 0;}
 a.archivelink {position:absolute; right: -56px; padding:9px; top:-10px;}
 img.archiveup {}
 .biglink {font-size:1.5em;}
-#clip {position: absolute; clip: rect(0, 69px, 200px, 0);}
+#nav_logo {position: absolute; clip: rect(0, 69px, 200px, 0);}
