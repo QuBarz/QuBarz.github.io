@@ -7,13 +7,13 @@
     </head>
     <body>
         <div class="container">
-            <div class="navbar prepend-top span-25 append-bottom last">
+            <div class="navbar prepend-top span-25 append-bottom last" style="height:69px;">
                 <div class="span-8">
                     <a href="/">
                         <img src="/img/4_Grayscale_logo_on_transparent_214x69.png" title="QuBarz" id="nav_logo"/>
                     </a>
                 </div>
-                <div class="right">
+                <div class="right" style="padding-top:10px">
                     <ul id="nav_buttons" class="round">
                         {% assign c = ' class = "current_page round"' %}
                         {% case page.title %}
@@ -21,7 +21,7 @@
                             {% assign h = c %}
                           {% when "About" %}
                             {% assign a = c %}
-                          {% when "Download" %}
+                          {% when "Deliverables" %}
                             {% assign d = c %}
                           {% when "News" %}
                             {% assign n = c %}
@@ -30,7 +30,7 @@
                         {% endcase %}
                         <li{{ h }}><a href="/">home</a></li>
                         <li{{ a }}><a href="/about.html">about</a></li>
-                        <li{{ d }}><a href="/download.html">download</a></li>
+                        <li{{ d }}><a href="/deliverables.html">deliverables</a></li>
                         <li{{ n }}><a href="/news.html">news</a></li>
                         <li{{ s }}><a href="/screenshots.html">screenshots</a></li>
                     </ul>
