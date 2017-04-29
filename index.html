@@ -9,7 +9,7 @@ The app it directed to the viewpoint of the outgoers that like to go out on days
 </p>
 <!--  -->
 <p>
-
+It is powered using Google Maps Android API, but due to limitations of Google Places API for Android, it actually uses Google Places API Web Service. The data we've accumulated, wait times, admission fees, and notifications, is stored on mongoDB with a nodeJS custom API. We deployed this mongoDB/nodeJS combination on a Google Cloud Compute Engine running Windows Server 2016. 
 </p>
 <h1>Importance</h1>
 <p>
@@ -18,24 +18,27 @@ This solution is needed due to the aspects that lines can be long for specific b
 <p>
 The purpose of this app is to provide more accuracy with ease to specific bars or restaurants that are in the surrounding area in the categories of admission fees, popularity, wait times, gender ratio, open/close times, and possible specials that are being given by each establishment.
 </p>
-<h1>Goal Functionality</h1>
+<p>
+We want to serve both the customer and business owner in a way that they have experienced in the past.
+</p>
+<h1>Functionality</h1>
 <ul>
-  <li>Google Maps with filtered results for Bars and Restaurants.</li>
-  <li>Users Check In to update current admission fees and wait times.</li>
+  <li>Google Maps with filtered results for Bars, Night Clubs, and Restaurants.</li>
   <li>Color coded map icons for wait times.</li>
-  <li>Owners given the ability to update specials, events, and hours of operation.</li>
+  <li>Users Check In to update current admission fees and wait times.</li>
 </ul>
 
-<h3>Possible Advancements</h3>
+<h3>Current Advancements</h3>
 <ul>
-<li>Owner verification through Google's Mail Postcards System.</li>
-<li>Owners avialibility to view demographics, historic wait times, and other analytics.</li>
+  <li>Owners given the ability to update specials and events.</li>
+  <li>Owners avialibility to view demographics, historic wait times, and other analytics.</li>
 </ul>
 
 <h3>Future Developments</h3>
 <ul>
-<li>Push Notifications from specific bars or restaurants to Checked In users</li>
-<li>Viewable reviews from popular review sites about individual bars or restaurants filtered by date.</li>
+  <li>Owner verification, like Google's Mail Postcards System.</li>
+  <li>Verified owners push notifications from their venues to customers who've checked in at their venue.</li>
+  <li>Viewable reviews from popular review sites about individual bars or restaurants filtered by date.</li>
 </ul>
 <p>If you&#39ve got any suggestions, please feel free to
 <a href="mailto:qubarz.ua@gmail.com">contact us</a></p>
